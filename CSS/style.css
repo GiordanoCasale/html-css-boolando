@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+footer{
+    background-color: black;
+    color: white;
+    padding: 43px 0px;
+    
+
+}
+
 header{
    background-color: #FF6900;
    color: white; 
@@ -123,6 +131,24 @@ ul{
     display: block;
 }
 
+.container-f{
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container-f-left{
+    width: 70%;
+    text-align: left;
+}
+
+.container-f-right{
+    width: 30%;
+    text-align: right;
+}
+
+
 
 
 /*utility*/
@@ -177,6 +203,10 @@ ul{
 
 .z-index{
     z-index: 1;
+}
+
+.my-f{
+    margin-top: 50px;
 }
 
 
