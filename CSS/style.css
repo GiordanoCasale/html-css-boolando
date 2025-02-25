@@ -19,6 +19,7 @@ header{
    position: fixed;
    width: 100%;
    height: 75px;
+   z-index: 5;
 }
 
 .container{
@@ -102,6 +103,7 @@ ul{
     padding: 5px 10px;
     color: black;
     font-size: 30px;
+    
 }
 
 .overlay{
@@ -209,8 +211,8 @@ ul{
     margin-top: 50px;
 }
 
-
-
-
+.label-heart:hover{
+    color: red;
+}
 
 
